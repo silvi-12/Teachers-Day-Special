@@ -7,7 +7,7 @@ signUpBtn.addEventListener("click", () => {
 
 const nameMessages = {
 	sheetal:
-		"My life's 1st teacher, guide, support, mentor, and everything.\nThank you for being there, Mom. I can't imagine my life without you.\nA lot to learn from you, a multitasking, super-speedo, and sweet person. Love you, Mom!❤️",
+		"My life's 1st teacher, guide, support, mentor, and everything.\nThank you for being there, Mom. I can't imagine my life without you.\nA lot to learn from you; you're a multitasking, super-speedo, and sweet person. Love you, Mom!❤️",
 	vijay:
 		"My life's 1st teacher, guide, support, mentor, and everything.\nThank you for being there, Dad. I can't imagine my life without you.\nA lot to learn from you; you have a strong and sensible approach. My political head, I love you a lot!❤️",
 	yogeeta:
@@ -42,9 +42,13 @@ function displayMsg() {
 		para.textContent =
 			"I hope you are doing well.\nThank you for always being there by our side and guiding us through life.\nWe took a lot of learnings from you.\nThe fun moments, the scoldings, and the learnings have become memories to be cherished lifelong.";
 	}
-
+	clearInput();
 	const nameInput = document.getElementById("name");
-	nameInput.classList.add("hidden");
+	nameInput.classList.toggle("hidden");
 	const nameLabel = document.getElementById("label");
-	nameLabel.classList.add("hidden");
+	nameLabel.classList.toggle("hidden");
+}
+
+function clearInput() {
+	document.getElementById("name").value = "";
 }
