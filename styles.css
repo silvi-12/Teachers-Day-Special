@@ -162,4 +162,7 @@ input {
 	.right p {
 		font-size: 2vw;
 	}
+	.green-bg button {
+		font-size: 0.8vw;
+	}
 }
