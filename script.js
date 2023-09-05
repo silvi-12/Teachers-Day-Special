@@ -7,7 +7,7 @@ signUpBtn.addEventListener("click", () => {
 
 const nameMessages = {
 	sheetal:
-		"My life's 1st teacher, guide, support, mentor, and everything.\nThank you for being there, Mom. I can't imagine my life without you.\nA lot to learn from you; you're a multitasking, super-speedo, and sweet person. Love you, Mom!❤️",
+		"My life's 1st teacher, guide, support, mentor, and everything.\nThank you for being there, Mom. I can't imagine my life without you.\nA lot to learn from you, a multitasking, super-speedo, and sweet person. Love you, Mom!❤️",
 	vijay:
 		"My life's 1st teacher, guide, support, mentor, and everything.\nThank you for being there, Dad. I can't imagine my life without you.\nA lot to learn from you; you have a strong and sensible approach. My political head, I love you a lot!❤️",
 	yogeeta:
