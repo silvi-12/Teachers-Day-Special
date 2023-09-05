@@ -164,5 +164,6 @@ input {
 	}
 	.green-bg button {
 		font-size: 1vw;
+		font-weight: bolder;
 	}
 }
